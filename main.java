@@ -1,4 +1,4 @@
-package me.diamondgear1.test2
+package me.diamondgear1.test2;
 
 public class Main extends JavaPlugin, Implements Listener {
 
@@ -12,8 +12,11 @@ pm.registerEvents(new test3(), this);
 public void onEnable() {
 RegisterManager();
 
-
 }
 
+public void onDisable() {
+  
+  
+}
 
 }
